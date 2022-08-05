@@ -1,0 +1,412 @@
+1) Columns in HBase are organized to	
+Column Groups
+Column List
+=>Column Families
+Column Base
+
+2)Each version of data within a cell adds a versioning information through a	
+VersionNo
+=>KeyValue
+KeyNo
+VersionValue
+
+3)Which among the following runs on top of HDFS and provides BigTable (Google) like capabilities to Hadoop.	
+=>HBase
+Hive
+Pig
+HCatalog
+
+4)HBase is ________, defines only column families.	
+Row Oriented
+=>Schema Less
+Fixed Schema
+None of the above
+
+5)Point out the Correct statement:	
+BigTable is a distributed storage system that is structured as a large table.
+Table may be petabytes in size and distributed among tens of thousands of machines. 
+"Big Table is designed for storing items such as billions of URLs, with many
+versions per page."
+=>All of the above
+
+6)BigTable is designed with --------- data storage in mind.	
+=>semi-structured
+structured
+un-structured
+None of the above
+
+7)Big Table is used for Throughput oriented batch processing and Latency sensitive data serving	
+=>TRUE
+FALSE
+
+8)The Bigtable API provides functions :	
+Creating and deleting tables and column families.
+Changing cluster , table and column family metadata.
+Support for single row transactions
+=>All of the above
+
+9)Bigtable is built on ------ pieces of Google infrastructure.	
+GFS
+SSTable
+Chubby
+=>All of the above
+
+10)Chubby is a ----	
+Data structure for storage Index
+=>Distributed lock service
+Master Node
+None
+
+11)Point out the wrong statement:	
+HBase is linearly scalable.
+It has automatic failure support.
+=>It doesn't provides consistent read and writes.
+It has easy java API for client.
+
+12)Cloud Storage is:	
+Made up of many distributed resources, but still acts as one, either in a federated or a cooperative storage cloud architecture
+Highly fault tolerant through redundancy and distribution of data
+Highly durable through the creation of versioned copies
+=>All of the above
+
+13)In GFS architecture data transfer directly happen between client and chunk server?	
+=>TRUE
+FALSE
+
+14)In DynamoDB, -------, -----------, and -------- are the core components that you work with.	 
+tables, items, and features
+Columns, rows, and attributes
+=>tables, items, and attributes
+None of these
+
+15) ___________ is the characteristic of something being made accessible only to authorized parties	
+=>Confidentiality
+Integrity
+Authenticity
+Availability
+
+16)In GFS architecture files are broken into chunks of ----- MB?	
+=>64
+128
+256
+None of the above
+
+17) _________ is the characteristic of not having been altered by an unauthorized party	
+Confidentiality
+=>Integrity
+Authenticity
+Availability
+
+18)In HDFS architecture the default Block size is ------ MB?	
+64
+=>128
+256
+None of the above
+
+19)A ________is a potential security violation that can challenge defenses in an attempt to breach privacy and/or cause harm.	
+=>threat 
+Vulnerability
+Risk
+None of these
+
+20) ______________ are countermeasures used to prevent or respond to security threats and to reduce or avoid risk	
+Security controls
+=>Security Mechanisms
+Security Policies
+None of these
+
+21)______________ are human threat agents acting on behalf of or in relation to the cloud provider. They are typically current or former employees or third parties with access to the cloud provider’s premises.	
+=>Malicious insiders
+anonymous attacker
+trusted attacker
+threat agent
+
+22)Countermeasures are typically described in terms of___________, which are components comprising a defensive framework that protects IT resources, information, and services.	
+Security controls
+=>Security Mechanisms
+Security Policies
+None of these
+
+23)A ________ establishes a set of security rules and regulations.	
+Security controls
+Security Mechanisms
+=>Security Policies
+None of these
+
+24) A _____________  is an entity that poses a threat because it is capable of carrying out an attack.	
+=>threat agent
+Attacker
+virous
+None of these
+
+25)low letency
+
+26)Google Docs is a type of cloud computing. 
+=>True 
+False
+
+27)Which of these companies is not a leader in cloud computing? 
+Google 
+Microsoft 
+Amazon 
+=>Blackboard
+
+28)Container is an environment which has all needed softwares and technologies installed to run our 
+application 
+virtualizer
+29)Identify the actor: A person or organization that maintains a business relationship with, and uses service from, Cloud Providers. 
+=>a) Cloud Consumer 
+b) Cloud Provider 
+c) Cloud Auditor 
+d) Cloud Broker 
+e) Cloud Carrier
+ 
+30)Which of the following is related to service provided by Cloud ? 
+=>A. Sourcing 
+B. Ownership 
+C. Reliability 
+D. AaaS 
+
+31)what exactly is cloud computing? 
+a. a way to organize desktop computers 
+b. Lightweight software that takes up little space on hard drive 
+=>C. Computing resources that can be accessed on demand, like electricity from utility 
+D. The world wide web 
+
+32)Which of the following is used to define the service component that performs the service ? 
+1. WSDL 
+=>2. SCDL 
+3. XML 
+4. None of the mentioned 
+
+33)Which of the following is a repeatable task within a business process ? 
+=>1. service 
+2. bus 
+3. methods 
+4. all of the mentioned 
+
+34)SOA offers a ________ design and reusable components in large deployments. 
+1. physical 
+=>2. logical 
+3. external
+4. all of the mentioned 
+
+35)Which of the following is a SOA transaction manager ? 
+1. AppSight 
+2. LISA 
+=>3. CoreFirst 
+4. All of the mentioned 
+
+36)____________architecture is like a big container in which all the software components of an application are clubbed inside a single package. 
+a) Microservice 
+=>b) Monolithic 
+c) SOA 
+d) None of these
+ 
+37)___________ Architecture is an architectural development style which builds an application as a 
+collection of small autonomous services developed for a business domain. 
+=>a) Microservice 
+b) Monolithic 
+c) SOA 
+d) None of these 
+
+38)________ architecture – a variant of the service-oriented architecture (SOA) structural style – arranges an application as a collection of loosely coupled services.
+=>a) Microservice 
+b) Monolithic 
+c) SOA 
+d) None of these
+
+39)A XYZ IT industry having 1000 employees wants to provide a cloud service 
+to their new banking sector client. As a cloud consultant which model you will suggest to XYZ Company, they should adopt. 
+=>a) Private cloud 
+b) public cloud 
+c) community cloud 
+d) hybrid cloud 
+
+40)_________ is called as, “the writing and participating web”. 
+a) Web 0.0 
+b) Web 1.0 
+=>c) Web 2.0 
+d) Web 3.0 
+
+41)_________ is called as, “Mobile Web”. 
+a) Web 1.0 
+b) Web 2.0 
+c) Web 3.0 
+=>d) Web 4.0 
+
+42)Uni-processor computing is known as:	
+=>Centralized computing 	
+Distributed computing 	
+None of the above 
+
+43)In utility computing model the service provider charges the customer	
+at a flat rate 	
+=>based on the usage 	
+None of these 	 
+
+44)Which are essential characteristics of cloud computing?	
+On-demand self service 	
+Resource pooling 	
+Rapid elasticity 	
+=>All of these 
+
+45)Amazon Web Services is an example of	
+SaaS 	
+PaaS 	
+=>IaaS 	
+None of these
+
+46)Email service on cloud is an example of	
+=>SaaS 	
+PaaS 	
+IaaS 	
+None of these
+
+47)Cloud Bursting for load balancing between clouds is an example of	
+Community cloud 	
+Public cloud 	
+Private cloud 	
+=>Hybrid cloud 
+
+48) Point out the wrong statement.
+=>a) Full virtualization requires that the host operating system provide a virtual machine interface for the guest operating system and that the guest access hardware through that host VM
+b) Guest operating systems in full virtualization systems are generally faster than other virtualization schemes
+c) A process virtual machine instantiates when a command begins a process
+d) All of the mentioned
+
+49)Point out the wrong statement.
+a) Some hypervisors are installed over an operating system and are referred to as Type 2 or hosted VM
+=>b) All CPUs support virtual machines
+c) On a Type 2 VM, a software interface is created that emulates the devices with which a system would normally interact
+d) All of the mentioned
+
+50) In _______ the virtual machine simulates hardware, so it can be independent of the underlying system hardware.
+a) paravirtualization
+b) full virtualization
+=>c) emulation
+d) none of the mentioned
+
+51) Which of the following type of virtualization is found in hypervisor such as Microsoft’s Hyper-V?
+=>a) paravirtualization
+b) full virtualization
+c) emulation
+d) none of the mentioned
+
+52)Which of the following is Type 2 VM?	
+VMware 
+ESX 	
+=>Xen
+
+53)An OS running on a Type ____ VM is a full virtualization.	 	
+=>1 	
+2
+
+54)Which of the following provide system resources access to VM?	 	
+=>VMM 	
+VMC
+
+55)"What happens to the VMs stored on it, if a server fails due to a hardware fault?  "	
+They are always accessible 	
+They are not able to be recovered 	
+=>They can be migrated to another server 	
+None of these
+
+56)Which of the following network resources can be load balanced?	
+Connections through intelligent switches 	
+DNS 	
+Storage resources 	
+=>All of the mentioned 
+
+57)Point out the wrong statement.	
+Load balancing virtualizes systems and resources by mapping a logical address to a physical address 	
+Multiple instances of various Google applications are running on different hosts 	
+Google uses hardware virtualization  	
+=>All of these
+
+58)The technology used to distribute service request to resources is referred to as:	
+Load performing 	
+Load Scheduling 	
+=>Load Balancing 	
+All of the mentioned 
+
+59)Creating more logical IT resources, within one physical system is called ________.	
+Load balancing 	
+Hypervisor 	
+=>Virtualization 	
+None of these 
+
+60)Which is not a benefit of virtualization?	
+Flexible and efficient allocation of resources 	
+Lowers the cost of IT infrastructure 	
+Remote access and rapid scalability 	
+=>Run on single operating system
+
+61)It has the ability to run multiple virtual networks with each has a separate control and data plan.	
+Application virtualization 	
+=>Network virtualization 	 
+Desktop virtualization 	
+Storage virtualization
+
+62)Which is the correct type of full virtualization?	
+Software assisted 	
+IoT assisted 	
+Hardware-assisted 	
+Software assisted and Hardware-assisted 
+=>both
+
+63)What is most commonly used for managing the resources for every virtual system?	
+Load balancer 	
+=>Hypervisor 	
+Router 	
+Cloud
+
+64)It helps a user to have remote access to an application from a server.	
+=>Application virtualization 	
+Network virtualization 	 
+Desktop virtualization 	
+Storage virtualization 
+
+65)Point out the wrong statement.	
+Abstraction enables the key benefit of cloud computing: shared, ubiquitous access 	
+Virtualization assigns a logical name for a physical resource and then provides a pointer to that physical resource when a request is made 	
+=>All cloud computing applications combine their resources into pools that can be assigned on demand to users 	
+All of the mentioned 
+
+66)Full form of AMI	
+Amazon Memory Image 	
+Amazon Memory Instance 	
+Amazon Machine Instance 	
+=>Amazon Machine Image
+
+67)Countermeasures are typically described in terms of___________, which are components comprising a defensive framework that protects IT resources, information, and services.	
+Security controls 	
+=>Security Mechanisms 	
+Security Policies 	
+None of these
+
+68)A ________ establishes a set of security rules and regulations.	
+Security controls 	
+Security Mechanisms 	
+=>Security Policies 	
+None of these
+
+69)A _____________  is an entity that poses a threat because it is capable of carrying out an attack.	
+=>threat agent 	
+Attacker 	
+virous 	
+None of these 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
